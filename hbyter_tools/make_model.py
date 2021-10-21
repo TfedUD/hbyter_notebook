@@ -22,8 +22,6 @@ def build_hb_objs(_path):
         * _path: path to hbjson
     Returns:
         * hb_objs
-
-
     """
     with open(_path) as json_file:
         data = json.load(json_file)
